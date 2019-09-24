@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <tabs>
+    <tab text="General">
+      <row>
+        <!--<button text="Console" id="Console_btn" onup="Console_up" ondown="Console_down" ontap="Console_tap" />-->
+        <button text="mobiGlas" id="mobiGlas_btn" onup="mobiGlas_up" ondown="mobiGlas_down" ontap="mobiGlas_tap" />
+        <button text="Starmap" id="Starmap_btn" onup="Starmap_up" ondown="Starmap_down" ontap="Starmap_tap" />
+        <button text="Cycle Camera\nView" id="CycleCameraView_btn" onup="CycleCameraView_up" ondown="CycleCameraView_down" ontap="CycleCameraView_tap" />
+        <button text="Toggle Gimbal\nMode" id="ToggleGimbalMode_btn" onup="ToggleGimbalMode_up" ondown="ToggleGimbalMode_down" ontap="ToggleGimbalMode_tap" />
+        <space />
+      </row>
+      <row>
+        <button text="Open/Close\nAll Doors" id="OpenCloseAllDoors_btn" onup="OpenCloseAllDoors_up" ondown="OpenCloseAllDoors_down" ontap="OpenCloseAllDoors_tap" />
+        <button text="Lock/Unlock\nAll Doors" id="LockUnlockAllDoors_btn" onup="LockUnlockAllDoors_up" ondown="LockUnlockAllDoors_down" ontap="LockUnlockAllDoors_tap" />
+        <button text="Decoupled\nMode Toggle" id="DecoupledModeToggle_btn" onup="DecoupledModeToggle_up" ondown="DecoupledModeToggle_down" ontap="DecoupledModeToggle_tap" />
+        <button text="Spool QT Drive" id="SpoolQTDrive_btn" onup="SpoolQTDrive_up" ondown="SpoolQTDrive_down" ontap="SpoolQTDrive_tap" />
+        <button text="Engage QT\n(Hold)" id="EngageQT_btn" onup="EngageQT_up" ondown="EngageQT_down" ontap="EngageQT_tap" />
+      </row>
+      <row>
+        <button text="Switch Mining\nLaser" id="SwitchMiningLaser_btn" onup="SwitchMiningLaser_up" ondown="SwitchMiningLaser_down" ontap="SwitchMiningLaser_tap" />
+        <button text="Scanning Radar\nPulse" id="ScanningRadarPulse_btn" onup="ScanningRadarPulse_up" ondown="ScanningRadarPulse_down" ontap="ScanningRadarPulse_tap" />
+        <button text="Eject\n(Hold)" id="Eject_btn" onup="Eject_up" ondown="Eject_down" ontap="Eject_tap" />
+        <space />
+        <space />
+      </row>
+    </tab>
+    <tab text="Systems">
+      <row>
+        <button text="Scan Mode\nToggle" id="ScanModeToggle_btn" onup="ScanModeToggle_up" ondown="ScanModeToggle_down" ontap="ScanModeToggle_tap" />
+        <button text="Flight\nReady" id="FlightReady_btn" onup="FlightReady_up" ondown="FlightReady_down" ontap="FlightReady_tap" />
+        <button text="Exit\nSeat" id="ExitSeat_btn" onup="ExitSeat_up" ondown="ExitSeat_down" ontap="ExitSeat_tap" />
+        <button text="Toggle\nLights" id="ToggleLights_btn" onup="ToggleLights_up" ondown="ToggleLights_down" ontap="ToggleLights_tap" />
+        <space />
+      </row>
+      <row>
+        <button text="Power\nOn/Off" id="PowerOnOff_btn" onup="PowerOnOff_up" ondown="PowerOnOff_down" ontap="PowerOnOff_tap" />
+        <button text="Engines\nOn/Off" id="EnginesOnOff_btn" onup="EnginesOnOff_up" ondown="EnginesOnOff_down" ontap="EnginesOnOff_tap" />
+        <button text="Shields\nOn/Off" id="ShieldsOnOff_btn" onup="ShieldsOnOff_up" ondown="ShieldsOnOff_down" ontap="ShieldsOnOff_tap" />
+        <button text="Weapons\nOn/Off" id="WeaponsOnOff_btn" onup="WeaponsOnOff_up" ondown="WeaponsOnOff_down" ontap="WeaponsOnOff_tap" />
+        <space />
+      </row>
+      <row>
+        <button text="Landing Mode\nToggle" id="LandingModeToggle_btn" onup="LandingModeToggle_up" ondown="LandingModeToggle_down" ontap="LandingModeToggle_tap" />
+        <button text="Autoland\n(Hold, LM)" id="Autoland_btn" onup="Autoland_up" ondown="Autoland_down" ontap="Autoland_tap" />
+        <button text="Cruse Control" id="CruseControl_btn" onup="CruseControl_up" ondown="CruseControl_down" ontap="CruseControl_tap" />
+        <button text="Mining Mode" id="MiningMode_btn" onup="MiningMode_up" ondown="MiningMode_down" ontap="MiningMode_tap" />
+        <button text="AI Turrets\nToggle" id="AiTurretsToggle_btn" onup="AiTurretsToggle_up" ondown="AiTurretsToggle_down" ontap="AiTurretsToggle_tap" />
+      </row>
+      <row>
+        <button text="Acceleration Limiter\nIncrease" id="AccelerationLimiterIncrease_btn" onup="AccelerationLimiterIncrease_up" ondown="AccelerationLimiterIncrease_down" ontap="AccelerationLimiterIncrease_tap" />
+        <button text="Acceleration Limiter\nDecrease" id="AccelerationLimiterDecrease_btn" onup="AccelerationLimiterDecrease_up" ondown="AccelerationLimiterDecrease_down" ontap="AccelerationLimiterDecrease_tap" />
+        <space />
+        <button text="Launch Counter Mesures" id="LaunchCounterMeasures_btn" onup="LaunchCounterMeasures_up" ondown="LaunchCounterMeasures_down" ontap="LaunchCounterMeasures_tap" />
+        <button text="Cycle Counter Measures" id="CycleCounterMeasures_btn" onup="CycleCounterMeasures_up" ondown="CycleCounterMeasures_down" ontap="CycleCounterMeasures_tap" />
+      </row>
+    </tab>
+    <tab text="Manage">
+      <row>
+        <space />
+        <button text="Shield Raise\nLevel Front" id="ShieldRaiseLevelFront_btn" onup="ShieldRaiseLevelFront_up" ondown="ShieldRaiseLevelFront_down" ontap="ShieldRaiseLevelFront_tap" />
+        <button text="Shield Raise\nLevel Top" id="ShieldRaiseLevelTop_btn" onup="ShieldRaiseLevelTop_up" ondown="ShieldRaiseLevelTop_down" ontap="ShieldRaiseLevelTop_tap" />
+        <space />
+        <button text="Increase\nEngine\nPower" id="IncreaseEnginePower_btn" onup="IncreaseEnginePower_up" ondown="IncreaseEnginePower_down" ontap="IncreaseEnginePower_tap" />
+        <button text="Increase\nShield\nPower" id="IncreaseShieldPower_btn" onup="IncreaseShieldPower_up" ondown="IncreaseShieldPower_down" ontap="IncreaseShieldPower_tap" />
+        <button text="Increase\nWeapon\nPower" id="IncreaseWeaponPower_btn" onup="IncreaseWeaponPower_up" ondown="IncreaseWeaponPower_down" ontap="IncreaseWeaponPower_tap" />
+        <button text="Reset Power\nDistribution" id="ResetPowerDistribution_btn" onup="ResetPowerDistribution_up" ondown="ResetPowerDistribution_down" ontap="ResetPowerDistribution_tap" />
+      </row>
+      <row>
+        <button text="Shield Raise\nLevel Left" id="ShieldRaiseLevelLeft_btn" onup="ShieldRaiseLevelLeft_up" ondown="ShieldRaiseLevelLeft_down" ontap="ShieldRaiseLevelLeft_tap" />
+        <button text="Shield Reset" id="ShieldReset_btn" onup="ShieldReset_up" ondown="ShieldReset_down" ontap="ShieldReset_tap" />
+        <button text="Shield Raise\nLevel Right" id="ShieldRaiseLevelRight_btn" onup="ShieldRaiseLevelRight_up" ondown="ShieldRaiseLevelRight_down" ontap="ShieldRaiseLevelRight_tap" />
+        <space />
+        <button text="Increase Power" id="IncreasePower_btn" onup="IncreasePower_up" ondown="IncreasePower_down" weight="2" ontap="IncreasePower_tap" />
+        <button text="Decrease Power" id="DecreasePower_btn" onup="DecreasePower_up" ondown="DecreasePower_down" weight="2" ontap="DecreasePower_tap" />
+      </row>
+      <row>
+        <space />
+        <button text="Shield Raise\nLevel Back" id="ShieldRaiseLevelBack_btn" onup="ShieldRaiseLevelBack_up" ondown="ShieldRaiseLevelBack_down" ontap="ShieldRaiseLevelBack_tap" />
+        <button text="Shield Raise\nLevel Bottom" id="ShieldRaiseLevelBottom_btn" onup="ShieldRaiseLevelBottom_up" ondown="ShieldRaiseLevelBottom_down" ontap="ShieldRaiseLevelBottom_tap" />
+        <space />
+        <button text="Power Max\n(DT)" id="PowerMax_btn" onup="PowerMax_up" ondown="PowerMax_down" weight="2" ontap="PowerMax_tap" />
+        <button text="Power Min\n(DT)" id="PowerMin_btn" onup="PowerMin_up" ondown="PowerMin_down" weight="2" ontap="PowerMin_tap" />
+      </row>
+      <row>
+        <button text="Mining Laser\nPower Increase" id="MiningLaserPowerIncrease_btn" onup="MiningLaserPowerIncrease_up" ondown="MiningLaserPowerIncrease_down" weight="2" ontap="MiningLaserPowerIncrease_tap" />
+        <button text="Mining Laser\nPower Decrease" id="MiningLaserPowerDecrease_btn" onup="MiningLaserPowerDecrease_up" ondown="MiningLaserPowerDecrease_down" weight="2" ontap="MiningLaserPowerDecrease_tap" />
+        <button text="Radar Ping Angle\nIncrease" id="RadarPingAngleIncrease_btn" onup="RadarPingAngleIncrease_up" ondown="RadarPingAngleIncrease_down" weight="2" ontap="RadarPingAngleIncrease_tap" />
+        <button text="Radar Ping Angle\nDecrease" id="RadarPingAngleDecrease_btn" onup="RadarPingAngleDecrease_up" ondown="RadarPingAngleDecrease_down" weight="2" ontap="RadarPingAngleDecrease_tap" />
+      </row>
+    </tab>
+    <tab text="Target">
+      <row>
+        <button text="Reticle Focus" id="ReticleFocus_btn" onup="ReticleFocus_up" ondown="ReticleFocus_down" ontap="ReticleFocus_tap" />
+        <button text="Pin Target\n(Hold)" id="PinTarget_btn" onup="PinTarget_up" ondown="PinTarget_down" ontap="PinTarget_tap" />
+        <button text="Target Nearest\nEnemy (M1)" id="TargetNearestEnemy_btn" onup="TargetNearestEnemy_up" ondown="TargetNearestEnemy_down" ontap="TargetNearestEnemy_tap" />
+        <button text="Cycle SubTarget\nForward" id="CycleSubTargetForward_btn" onup="CycleSubTargetForward_up" ondown="CycleSubTargetForward_down" ontap="CycleSubTargetForward_tap" />
+        <button text="Cycle SubTarget\nBackwards (M1)" id="CycleSubTargetBackwards_btn" onup="CycleSubTargetBackwards_up" ondown="CycleSubTargetBackwards_down" ontap="CycleSubTargetBackwards_tap" />
+        <button text="Reset SubTarget\n(Hold)" id="ResetSubTarget_btn" onup="ResetSubTarget_up" ondown="ResetSubTarget_down" ontap="ResetSubTarget_tap" />
+      </row>
+      <row>
+        <button text="Cycle Enemy Targets\nForward" id="CycleEnemyTargetsForward_btn" onup="CycleEnemyTargetsForward_up" ondown="CycleEnemyTargetsForward_down" ontap="CycleEnemyTargetsForward_tap" />
+        <button text="Cycle Enemy Targets\nBackwards (M1)" id="CycleEnemyTargetsBackwards_btn" onup="CycleEnemyTargetsBackwards_up" ondown="CycleEnemyTargetsBackwards_down" ontap="CycleEnemyTargetsBackwards_tap" />
+        <button text="Cycle Pinned Targets\nForward" id="CyclePinnedTargetsForward_btn" onup="CyclePinnedTargetsForward_up" ondown="CyclePinnedTargetsForward_down" ontap="CyclePinnedTargetsForward_tap" />
+        <button text="Cycle Pinned Targets\nBackwards (M1)" id="CyclePinnedTargetsBackwards_btn" onup="CyclePinnedTargetsBackwards_up" ondown="CyclePinnedTargetsBackwards_down" ontap="CyclePinnedTargetsBackwards_tap" />
+        <button text="Cycle Friendly Targets\nForward" id="CycleFriendlyTargetsForward_btn" onup="CycleFriendlyTargetsForward_up" ondown="CycleFriendlyTargetsForward_down" ontap="CycleFriendlyTargetsForward_tap" />
+        <button text="Cycle Friendly Targets\nBackwards (M1)" id="CycleFriendlyTargetsBackwards_btn" onup="CycleFriendlyTargetsBackwards_up" ondown="CycleFriendlyTargetsBackwards_down" ontap="CycleFriendlyTargetsBackwards_tap" />
+      </row>
+      <row>
+        <button text="Hail Target" id="HailTarget_btn" onup="HailTarget_up" ondown="HailTarget_down" ontap="HailTarget_tap" />
+        <space />
+        <space />
+        <space />
+        <space />
+        <space />
+      </row>
+    </tab>
+    <tab text="Social">
+      <row>
+        <button text="Contacts\n2D UI Cursor" id="Contacts2DUICursor_btn" onup="Contacts2DUICursor_up" ondown="Contacts2DUICursor_down" ontap="Contacts2DUICursor_tap" />
+        <button text="Toggle Chat\nWindow" id="ToggleChatWindow_btn" onup="ToggleChatWindow_up" ondown="ToggleChatWindow_down" ontap="ToggleChatWindow_tap" />
+        <button text="Scoreboard\n(Hold)" id="Scoreboard_btn" onup="Scoreboard_up" ondown="Scoreboard_down" ontap="Scoreboard_tap" />
+        <button text="P.I.T.\n(IM)" id="PIT_btn" onup="PIT_up" ondown="PIT_down" ontap="PIT_tap" />
+      </row>
+      <row>
+        <button text="Accept Invite" id="AcceptInvite_btn" onup="AcceptInvite_up" ondown="AcceptInvite_down" ontap="AcceptInvite_tap" />
+        <button text="Reject Invite" id="RejectInvite_btn" onup="RejectInvite_up" ondown="RejectInvite_down" ontap="RejectInvite_tap" />
+        <button text="Ignore\n(Hold)" id="Ignore_btn" onup="Ignore_up" ondown="Ignore_down" ontap="Ignore_tap" />
+        <space />
+      </row>
+    </tab>
+    <tab text="Camera">
+      <row weight="1">
+        <button text="Adv Camera\n(Hold)" id="AdvCamera_btn" onup="AdvCamera_up" ondown="AdvCamera_down" ontap="AdvCamera_tap" />
+      </row>
+      <row weight="4">
+        <tabs>
+          <tab text="Controls">
+            <row>
+              <button text="Reset View (AC)" id="ResetView_btn" onup="ResetView_up" ondown="ResetView_down" ontap="ResetView_tap" />
+            </row>
+            <row>
+              <button text="Z Offset + (AC)" id="ZOP_btn" onup="ZOP_up" ondown="ZOP_down" ontap="ZOP_tap" />
+              <button text="Y Offset + (AC)" id="YOP_btn" onup="YOP_up" ondown="YOP_down" ontap="YOP_tap" />
+              <button text="Z Offset - (AC)" id="ZON_btn" onup="ZON_up" ondown="ZON_down" ontap="ZON_tap" />
+            </row>
+            <row>
+              <button text="X Offset - (AC)" id="XON_btn" onup="XON_up" ondown="XON_down" ontap="XON_tap" />
+              <button text="Y Offset - (AC)" id="YON_btn" onup="YON_up" ondown="YON_down" ontap="YON_tap" />
+              <button text="X Offset + (AC)" id="XOP_btn" onup="XOP_up" ondown="XOP_down" ontap="XOP_tap" />
+            </row>
+            <row>
+              <button text="DoF Increase (AC)" id="DoFIncrease_btn" onup="DoFIncrease_up" ondown="DoFIncrease_down" ontap="DoFIncrease_tap" />
+              <space />
+              <button text="DoF Decrease (AC)" id="DoFDecrease_btn" onup="DoFDecrease_up" ondown="DoFDecrease_down" ontap="DoFDecrease_tap" />
+            </row>
+            <row>
+              <button text="Decrease FOV (AC)" id="DecreaseFOV_btn" onup="DecreaseFOV_up" ondown="DecreaseFOV_down" ontap="DecreaseFOV_tap" />
+              <space />
+              <button text="Increase FOV (AC)" id="IncreaseFOV_btn" onup="IncreaseFOV_up" ondown="IncreaseFOV_down" ontap="IncreaseFOV_tap" />
+            </row>
+          </tab>
+          <tab text="Slots">
+            <row>
+              <button text="Clear Current Save (Hold, AC)" id="ClearCurrentSave_btn" onup="ClearCurrentSave_up" ondown="ClearCurrentSave_down" ontap="ClearCurrentSave_tap" />
+            </row>
+            <row>
+              <button text="Load 1 (AC)" id="Load1_btn" onup="Load1_up" ondown="Load1_down" ontap="Load1_tap" />
+              <button text="Load 2 (AC)" id="Load2_btn" onup="Load2_up" ondown="Load2_down" ontap="Load2_tap" />
+              <button text="Load 3 (AC)" id="Load3_btn" onup="Load3_up" ondown="Load3_down" ontap="Load3_tap" />
+              <space />
+              <button text="Save 1 (Hold, AC)" id="Save1_btn" onup="Save1_up" ondown="Save1_down" ontap="Save1_tap" />
+              <button text="Save 2 (Hold, AC)" id="Save2_btn" onup="Save2_up" ondown="Save2_down" ontap="Save2_tap" />
+              <button text="Save 3 (Hold, AC)" id="Save3_btn" onup="Save3_up" ondown="Save3_down" ontap="Save3_tap" />
+            </row>
+            <row>
+              <button text="Load 4 (AC)" id="Load4_btn" onup="Load4_up" ondown="Load4_down" ontap="Load4_tap" />
+              <button text="Load 5 (AC)" id="Load5_btn" onup="Load5_up" ondown="Load5_down" ontap="Load5_tap" />
+              <button text="Load 6 (AC)" id="Load6_btn" onup="Load6_up" ondown="Load6_down" ontap="Load6_tap" />
+              <space />
+              <button text="Save 4 (Hold, AC)" id="Save4_btn" onup="Save4_up" ondown="Save4_down" ontap="Save4_tap" />
+              <button text="Save 5 (Hold, AC)" id="Save5_btn" onup="Save5_up" ondown="Save5_down" ontap="Save5_tap" />
+              <button text="Save 6 (Hold, AC)" id="Save6_btn" onup="Save6_up" ondown="Save6_down" ontap="Save6_tap" />
+            </row>
+            <row>
+              <button text="Load 7 (AC)" id="Load7_btn" onup="Load7_up" ondown="Load7_down" ontap="Load7_tap" />
+              <button text="Load 8 (AC)" id="Load8_btn" onup="Load8_up" ondown="Load8_down" ontap="Load8_tap" />
+              <button text="Load 9 (AC)" id="Load9_btn" onup="Load9_up" ondown="Load9_down" ontap="Load9_tap" />
+              <space />
+              <button text="Save 7 (Hold, AC)" id="Save7_btn" onup="Save7_up" ondown="Save7_down" ontap="Save7_tap" />
+              <button text="Save 8 (Hold, AC)" id="Save8_btn" onup="Save8_up" ondown="Save8_down" ontap="Save8_tap" />
+              <button text="Save 9 (Hold, AC)" id="Save9_btn" onup="Save9_up" ondown="Save9_down" ontap="Save9_tap" />
+            </row>
+          </tab>
+        </tabs>
+      </row>
+    </tab>
+    <tab text="Misc">
+      <row>
+        <button text="Look Ahead (M1)" id="LookAhead_btn" onup="LookAhead_up" ondown="LookAhead_down" ontap="LookAhead_tap" />
+        <button text="Afterburner" id="Afterburner_btn" onup="Afterburner_up" ondown="Afterburner_down" ontap="Afterburner_tap" />
+        <button text="Freelook\n(Hold)" id="Freelook_btn" onup="Freelook_up" ondown="Freelook_down" ontap="Freelook_tap" />
+        <button text="Spacebreak" id="Spacebreak_btn" onup="Spacebreak_up" ondown="Spacebreak_down" ontap="Spacebreak_tap" />
+      </row>
+      <row>
+        <button text="Cycle Mouse Aim\nMode (HOMAS)" id="CycleMouseAimMode_btn" onup="CycleMouseAimMode_up" ondown="CycleMouseAimMode_down" ontap="CycleMouseAimMode_tap" />
+        <space />
+        <button text="Dynamic Zoom In" id="DynamicZoomIn_btn" onup="DynamicZoomIn_up" ondown="DynamicZoomIn_down" ontap="DynamicZoomIn_tap" />
+        <button text="Dynamic Zoom Out" id="DynamicZoomOut_btn" onup="DynamicZoomOut_up" ondown="DynamicZoomOut_down" ontap="DynamicZoomOut_tap" />
+      </row>
+    </tab>
+    <tab text="On Foot">
+      <row>
+        <button text="Sidearm" id="Sidearm_btn" onup="Sidearm_up" ondown="Sidearm_down" ontap="Sidearm_tap" />
+        <button text="Primary Weapon 1" id="PrimaryWeapon1_btn" onup="PrimaryWeapon1_up" ondown="PrimaryWeapon1_down" ontap="PrimaryWeapon1_tap" />
+        <button text="Primary Weapon 2" id="PrimaryWeapon2_btn" onup="PrimaryWeapon2_up" ondown="PrimaryWeapon2_down" ontap="PrimaryWeapon2_tap" />
+        <button text="Gadget" id="Gadget_btn" onup="Gadget_up" ondown="Gadget_down" ontap="Gadget_tap" />
+        <button text="Cycle Melee" id="CycleMelee_btn" onup="CycleMelee_up" ondown="CycleMelee_down" ontap="CycleMelee_tap" />
+        <button text="Contract Item" id="ContractItem_btn" onup="ContractItem_up" ondown="ContractItem_down" ontap="ContractItem_tap" />
+      </row>
+      <row>
+        <button text="Reload" id="Reload_btn" onup="Reload_up" ondown="Reload_down" ontap="Reload_tap" />
+        <button text="Holster Weapon\n(Hold)" id="HolsterWeapon_btn" onup="HolsterWeapon_up" ondown="HolsterWeapon_down" ontap="HolsterWeapon_tap" />
+        <button text="Flashlight" id="Flashlight_btn" onup="Flashlight_up" ondown="Flashlight_down" ontap="Flashlight_tap" />
+        <button text="Quick Interact" id="QuickInteract_btn" onup="QuickInteract_up" ondown="QuickInteract_down" ontap="QuickInteract_tap" />
+        <button text="Equip Grenade" id="EquipGrenade_btn" onup="EquipGrenade_up" ondown="EquipGrenade_down" ontap="EquipGrenade_tap" />
+        <space />
+      </row>
+      <row>
+        <button text="Change Firemode" id="ChangeFiremode_btn" onup="ChangeFiremode_up" ondown="ChangeFiremode_down" ontap="ChangeFiremode_tap" />
+        <button text="Heal" id="Heal_btn" onup="Heal_up" ondown="Heal_down" ontap="Heal_tap" />
+        <button text="Refill O2" id="RefillO2_btn" onup="RefillO2_up" ondown="RefillO2_down" ontap="RefillO2_tap" />
+        <space />
+        <button text="Movement Speed\nIncrease" id="MovementSpeedIncrease_btn" onup="MovementSpeedIncrease_up" ondown="MovementSpeedIncrease_down" ontap="MovementSpeedIncrease_tap" />
+        <button text="Movement Speed\nDecrease" id="MovementSpeedDecrease_btn" onup="MovementSpeedDecrease_up" ondown="MovementSpeedDecrease_down" ontap="MovementSpeedDecrease_tap" />
+      </row>
+    </tab>
+    <tab text="About">
+      <label text="" id="About_lbl" />
+    </tab>
+  </tabs>
+</layout>
