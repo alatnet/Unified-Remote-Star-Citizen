@@ -235,8 +235,5 @@
         <button text="Movement Speed\nDecrease" id="MovementSpeedDecrease_btn" onup="MovementSpeedDecrease_up" ondown="MovementSpeedDecrease_down" ontap="MovementSpeedDecrease_tap" />
       </row>
     </tab>
-    <tab text="About">
-      <label text="" id="About_lbl" />
-    </tab>
   </tabs>
 </layout>
